@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="generic">
+  <id>cz.vitexsoftware.php-firebase-php-jwt</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>BSD-3-Clause</project_license>
+  <name>php-firebase-php-jwt</name>
+  <summary>Simple library to encode and decode JSON Web Tokens in PHP</summary>
+  <description>
+    <p>
+      A simple library to encode and decode JSON Web Tokens (JWT) in PHP,
+      conforming to the current JWT specification (RFC 7519).
+    </p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">https://github.com/googleapis/php-jwt</url>
+  <developer id="com.google.firebase">
+    <name>Firebase / Google</name>
+  </developer>
+</component>

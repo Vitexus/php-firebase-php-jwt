@@ -1,0 +1,22 @@
+Source: php-firebase-php-jwt
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ jq,
+ appstream,
+Standards-Version: 4.7.0
+Homepage: https://github.com/googleapis/php-jwt
+Rules-Requires-Root: no
+
+Package: php-firebase-php-jwt
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ composer,
+ php-common (>= 2:69~),
+Description: Simple library to encode and decode JSON Web Tokens in PHP
+ A simple library to encode and decode JSON Web Tokens (JWT) in PHP,
+ conforming to the current JWT specification (RFC 7519).

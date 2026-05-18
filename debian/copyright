@@ -1,0 +1,92 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: php-firebase-php-jwt
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitattributes
+           .github/workflows/release-please.yml
+           .github/workflows/tests.yml
+           .gitignore
+           CHANGELOG.md
+           README.md
+           composer.json
+           phpstan.neon.dist
+           tests/data/ec-jwkset.json
+           tests/data/ecdsa-private.pem
+           tests/data/ecdsa-public.pem
+           tests/data/ecdsa192-private.pem
+           tests/data/ecdsa192-public.pem
+           tests/data/ecdsa256-private.pem
+           tests/data/ecdsa384-private.pem
+           tests/data/ecdsa384-public.pem
+           tests/data/ed25519-1.pub
+           tests/data/ed25519-1.sec
+           tests/data/ed25519-jwkset.json
+           tests/data/octet-jwkset.json
+           tests/data/rsa-jwk2-public.pub
+           tests/data/rsa-jwkset-2.json
+           tests/data/rsa-jwkset.json
+           tests/data/rsa-with-passphrase.pem
+           tests/data/rsa1-private.pem
+           tests/data/rsa1-public.pub
+           tests/data/rsa2-private.pem
+           tests/data/secp256k1-private.pem
+           tests/data/secp256k1-public.pem
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         phpunit.xml.dist
+#         .php-cs-fixer.dist.php
+#         src/CachedKeySet.php
+#         src/JWK.php
+#         src/ExpiredException.php
+#         src/JWTExceptionWithPayloadInterface.php
+#         src/SignatureInvalidException.php
+#         src/JWT.php
+#         src/Key.php
+#         src/BeforeValidException.php
+#         tests/CachedKeySetTest.php
+#         tests/JWKTest.php
+#         tests/ReadmeTest.php
+#         tests/JWTTest.php
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ Copyright (c) 2011, Neuman Vong
+ .
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+     * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+ .
+     * Redistributions in binary form must reproduce the above
+       copyright notice, this list of conditions and the following
+       disclaimer in the documentation and/or other materials provided
+       with the distribution.
+ .
+     * Neither the name of the copyright holder nor the names of other
+       contributors may be used to endorse or promote products derived
+       from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
